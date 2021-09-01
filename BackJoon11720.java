@@ -8,13 +8,13 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		
 		int N = in.nextInt();
-		String a = in.next();
+		String A = in.next();
 		in.close();
 		
 		int sum = 0;
 		
 		for(int i = 0; i < N; i++) {
-			sum += a.charAt(i)-'0';
+			sum += A.charAt(i)-'0';
 		}
 		
 		System.out.print(sum);
